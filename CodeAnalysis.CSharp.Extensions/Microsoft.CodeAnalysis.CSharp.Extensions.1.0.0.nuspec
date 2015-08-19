@@ -2,19 +2,19 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Microsoft.CodeAnalysis.CSharp.Extensions</id>
-        <version>1.0.0-rc</version>
+        <version>1.0.0</version>
         <authors>Denis Tsvettsih</authors>
         <projectUrl>https://github.com/denis-tsv/Microsoft.CodeAnalysis.CSharp.Extensions</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Contains useful extension methods which simplifies using of SyntaxTree and SemanticModel</description>
         <tags>Roslyn CodeAnalysis CSharp CodeGeneration Syntax Semantics</tags>
         <dependencies>
-            <group targetFramework=".NETFramework4.5">
-                <dependency id="Microsoft.CodeAnalysis.CSharp" version="1.0.0-rc2" />
+            <group targetFramework=".NETPortable4.5-net45+win8">
+                <dependency id="Microsoft.CodeAnalysis.CSharp" version="1.0.0" />
             </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="CodeAnalysis.CSharp.Extensions\bin\Release\Microsoft.CodeAnalysis.CSharp.Extensions.dll" target="lib\net45\Microsoft.CodeAnalysis.CSharp.Extensions.dll" />
+        <file src="CSharp.Extensions.Portable\bin\Release\Microsoft.CodeAnalysis.CSharp.Extensions.dll" target="lib\portable45-net45+win8\Microsoft.CodeAnalysis.CSharp.Extensions.dll" />
     </files>
 </package>
